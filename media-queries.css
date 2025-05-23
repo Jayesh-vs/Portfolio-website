@@ -1,0 +1,140 @@
+/* MEDIA  */
+
+@media screen and (max-width: 768px) {
+  /* NAVIGATION */
+
+
+  #navbar {
+    display: none;
+  }
+
+  /* HEADER */
+  .robot-3d {
+    display: none;
+  }
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    width: 90vw;
+    position: absolute;
+    top:-100px;
+    left: -10px;
+  }
+  .content h1 {
+    text-align: center;
+  }
+  .socialButton {
+    display: flex;
+    justify-content: center;
+  }
+  /* ABOUT */
+  .container {
+    text-align: center;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text {
+    width: 90vw;
+  }
+  .project-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .image-section img {
+    display: none;
+  }
+  .text-section {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .tail {
+    margin-left: 40px;
+  }
+  /* CONTACT */
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+.nav-toggle{
+    font-size: 20px;
+    position: relative;
+    left: 190px;
+    top: 8px;
+  }
+  .text-section {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 5px;
+  }
+
+  .about-img {
+    width: 90vw;
+  }
+  .about-title {
+    margin-top: 40px;
+  }
+  .socialButton {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 300px;
+    position: absolute;
+    left: 12px;
+  }
+  .content-text {
+    position: absolute;
+    top: 200px;
+    left: 1px;
+    right: 50px;
+  }
+
+}
+
+@media screen and (max-width:370px){
+  .socialButton{
+    margin-top: 360px;
+    position: absolute;
+    left: -5px;
+  }
+
+  .project-container{
+    padding: 20px 0;
+  }
+  .form-title{
+    margin: 0 auto;
+  }
+  .contact{
+    margin-top: 250px;
+  }
+  .contact-input{
+    width: 300px;
+    margin: 0px auto;
+  }
+  .contact-form-left button {
+    margin: 0 auto;
+  }
+  .project-container{
+    height: 70vh;
+  }
+  .see-project-boot{
+    margin-top: 10px ;
+  }
+}
